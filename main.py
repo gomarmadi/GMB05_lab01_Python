@@ -10,7 +10,7 @@ def main():
         x = float(input("Введите X="))
         try:
             if x >= 8:
-                y = (pow(a,2) + 4 * pow(x,2) + pow(b,2))/2*x
+                y = (pow(a,2) + 4 * pow(x,2) + pow(b,2))/(2*x)
                 print("Y = ",y)
             else:
                 y = pow(a,2) - 2 * pow(x,2)
